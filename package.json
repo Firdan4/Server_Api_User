@@ -1,0 +1,23 @@
+{
+  "name": "APi_heru",
+  "version": "1.0.0",
+  "description": "tugas api crud to database",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "heru firdan alghovari",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.6.5"
+  }
+}
